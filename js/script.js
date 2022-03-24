@@ -33,5 +33,10 @@ if (userAge < 19) {
 } else {
     ticketPrice = ticketPrice;
     let = newTicketPrice = Math.round(ticketPrice * 100) / 100;
-   console.log("Il costo del biglietto intero è:" + " " + newTicketPrice + "€");
+   console.log("Il costo del biglietto è:" + " " + newTicketPrice + "€");
 }
+
+document.getElementById("ticket").innerHTML = `
+La ringraziamo per l'acquisto <span class="red">${userName} ${userSurname}</span>, l'importo per il suo biglietto è di <span class="red">${newTicketPrice}&euro;</span>
+
+`
