@@ -37,6 +37,6 @@ if (userAge < 19) {
 }
 
 document.getElementById("ticket").innerHTML = `
-La ringraziamo per l'acquisto <span class="red">${userName} ${userSurname}</span>, l'importo per il suo biglietto è di <span class="red">${newTicketPrice}&euro;</span>
+La ringraziamo per averci scelto <span class="red">${userName} ${userSurname}</span>, l'importo per il suo biglietto è di <span class="red">${newTicketPrice}&euro;</span>
 
 `
